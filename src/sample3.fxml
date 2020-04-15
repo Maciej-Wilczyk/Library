@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="paneKsiazki" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TableKsiazki">
+   <children>
+      <Button fx:id="btpowrot" layoutX="57.0" layoutY="327.0" mnemonicParsing="false" onAction="#powrot" text="powrot" />
+      <TableView fx:id="tableKsiazki" layoutX="131.0" layoutY="58.0" prefHeight="280.0" prefWidth="341.0">
+        <columns>
+          <TableColumn fx:id="id_ksiazki" prefWidth="35.0" text="ID" />
+          <TableColumn fx:id="tytul" prefWidth="149.0" text="Tytul" />
+            <TableColumn fx:id="autor" prefWidth="156.0" text="Autor" />
+        </columns>
+      </TableView>
+      <Label alignment="TOP_CENTER" layoutX="163.0" layoutY="28.0" prefHeight="17.0" prefWidth="233.0" text="KSIAZKI" textAlignment="CENTER" style="-fx-font-weight: bold;"/>
+   </children>
+</AnchorPane>

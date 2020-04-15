@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane fx:id="paneDodajKsiazke" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DodajKsiazkeControler">
+    <children>
+        <TextField fx:id="tytul" layoutX="213.0" layoutY="102.0" />
+        <TextField fx:id="autor" layoutX="213.0" layoutY="145.0" />
+
+        <Button fx:id="dodaj" layoutX="262.0" layoutY="253.0" mnemonicParsing="false" text="Dodaj" onAction="#dodajKsiazke" />
+        <Button fx:id="powrot" layoutX="68.0" layoutY="325.0" mnemonicParsing="false" text="powrot" onAction="#powrot" />
+        <Label  alignment="CENTER" layoutX="153.0" layoutY="102.0" prefHeight="25.0" prefWidth="55.0" text="tytul" textAlignment="CENTER">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+        <Label  layoutX="152.0" layoutY="148.0" text="autor">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Label>
+
+    </children>
+</AnchorPane>

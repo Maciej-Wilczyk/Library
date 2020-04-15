@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="paneDodajWypozyczenie" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DodajWypozyczenieControler">
+   <children>
+      <ComboBox fx:id="nazwisko" layoutX="38.0" layoutY="105.0" prefHeight="25.0" prefWidth="148.0" />
+      <ComboBox fx:id="ksiazka" layoutX="216.0" layoutY="105.0" prefWidth="150.0" />
+      <Label layoutX="87.0" layoutY="78.0" text="Nazwisko" />
+      <Label layoutX="271.0" layoutY="78.0" text="Ksiazka" />
+      <TextField layoutX="397.0" layoutY="105.0" />
+      <Label layoutX="458.0" layoutY="78.0" text="data" />
+      <Button  layoutX="249.0" layoutY="200.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="83.0" text="Dodaj" />
+      <Button  layoutX="70.0" layoutY="311.0" mnemonicParsing="false" text="powrot" />
+   </children>
+</AnchorPane>
